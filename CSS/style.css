@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: red;
 }
 p{
@@ -9,5 +9,39 @@ button{
     background-color: aqua;
 }
 body{
-    background-color: black;
+    background-color: #abcdef;
+    background-color: skyblue;
+} */
+
+
+*{
+    color:blue;
+}
+
+
+
+&{
+    h1{
+        color: black;
+    }
+}
+
+
+#p1{
+    color: chartreuse;
+}
+#p2{
+    color: cyan;
+}
+#p3{
+    color:yellow;
+}
+
+
+.C1{
+    color: rgb(95, 228, 71);
+}
+
+body{
+    background-color: gray;
 }
