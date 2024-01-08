@@ -1,48 +1,28 @@
-div{
-    height: 100px;
+.loader{
+    height: 200px;
     width: 200px;
-    background-color: pink;
-    border: solid;
-    border-width: 2px;
-    border-color: blue;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    border-radius: 50%; 
+    border: 20px solid whitesmoke;
+    border-top: 20px dotted aquamarine;
+    animation-name: spinAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal ;
+   
 }
 
-h1{
-    height: 50px;
-    width: 150px;
-    background-color: aquamarine;
-    border: solid;
-    border-width: 3px;
-    border-style: dashed;
-    border-color: black;
-    text-align: center;
+@keyframes spinAnimation {
+
+    from{ 
+        transform: rotate(0deg);
+    }
+    to{ 
+        transform: rotate(360deg);
+    }
 }
 
-h2{
-    height: 50px;
-    width: 150px;
-    background-color: rgb(199, 138, 24);
-    /*
-    border-width: 3px;
-    border-color: black;
-    border-style: dashed; 
-    */
-
-     border: 4px dashed black;   /*   border Shothand */
-
-    text-align: center;
-}
-
-.C1{
-    height: 100px;
-    width: 100px;  
-    padding-left: 50px;
-    padding-top: 50px;     
-    background-color: pink;
-    border: solid;
-    border-width: 4px;
-    border-color:black;
-    margin-top: 50px;
-    margin-left: 100px;
-    
-}

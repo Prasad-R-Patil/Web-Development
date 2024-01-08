@@ -1,0 +1,28 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    border-radius: 50%; 
+    border: 20px solid whitesmoke;
+    border-top: 20px dotted aquamarine;
+    animation-name: spinAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal ;
+   
+}
+
+@keyframes spinAnimation {
+
+    from{ 
+        transform: rotate(0deg);
+    }
+    to{ 
+        transform: rotate(360deg);
+    }
+}
+

@@ -1,0 +1,46 @@
+
+#NevBar{
+    height: 60px;
+    background-color: #0f1111;
+    border: solid;
+    border-color: white;
+    
+}
+
+
+a{
+    padding-left: 20px;
+    padding-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+#B1{
+    background-color: orange;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+#content{
+            height: 630px;
+}
+
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+
